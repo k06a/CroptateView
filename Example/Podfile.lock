@@ -1,0 +1,14 @@
+PODS:
+  - ABCropRotateView (0.1.0)
+
+DEPENDENCIES:
+  - ABCropRotateView (from `../`)
+
+EXTERNAL SOURCES:
+  ABCropRotateView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABCropRotateView: 63a8917d449a2b4dc42a5846d40f2e09fecb9d51
+
+COCOAPODS: 0.39.0

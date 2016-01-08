@@ -1,6 +1,6 @@
 # ABCropRotateView
 
-[![CI Status](http://img.shields.io/travis/Anton Bukov/ABCropRotateView.svg?style=flat)](https://travis-ci.org/Anton Bukov/ABCropRotateView)
+[![CI Status](http://img.shields.io/travis/k06a/ABCropRotateView.svg?style=flat)](https://travis-ci.org/Anton Bukov/ABCropRotateView)
 [![Version](https://img.shields.io/cocoapods/v/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 [![License](https://img.shields.io/cocoapods/l/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 [![Platform](https://img.shields.io/cocoapods/p/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
@@ -17,7 +17,7 @@ ABCropRotateView is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ABCropRotateView"
+pod 'ABCropRotateView'
 ```
 
 ## Author

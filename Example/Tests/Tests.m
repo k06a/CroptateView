@@ -2,7 +2,7 @@
 //  ABCropRotateViewTests.m
 //  ABCropRotateViewTests
 //
-//  Created by Anton Bukov on 01/08/2016.
+//  Created by Anton Bukov on 01.08.2016.
 //  Copyright (c) 2016 Anton Bukov. All rights reserved.
 //
 
