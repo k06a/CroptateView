@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 [![Platform](https://img.shields.io/cocoapods/p/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 
+You can easily create photo editor to crop, pan and rotate photo. Editor is able to draw aspect ratio lines while cropping and avoid image edges accurately while cropping and rotating image.
+
+<image src="https://raw.githubusercontent.com/k06a/ABCropRotateView/master/screenshot.png" width="50%">
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/k06a/ABCropRotateView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/k06a/ABCropRotateView/master/screenshot.png"
   s.license          = 'MIT'
   s.author           = { "Anton Bukov" => "k06aaa@gmail.com" }
   s.source           = { :git => "https://github.com/k06a/ABCropRotateView.git", :tag => s.version.to_s }
