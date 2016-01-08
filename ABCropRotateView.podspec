@@ -4,6 +4,9 @@ Pod::Spec.new do |s|
   s.summary          = "Simple view allowing to crop and rotate photos"
 
   s.description      = <<-DESC
+                        You can easily create photo editor to crop, pan and rotate photo.
+                        Editor is able to draw aspect ratio lines while cropping and avoid
+                        image edges accurately while cropping and rotating image.
                        DESC
 
   s.homepage         = "https://github.com/k06a/ABCropRotateView"
