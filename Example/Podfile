@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ABCropRotateView_Example', :exclusive => true do
+  pod "ABCropRotateView", :path => "../"
+end
+
+target 'ABCropRotateView_Tests', :exclusive => true do
+  pod "ABCropRotateView", :path => "../"
+
+  
+end
