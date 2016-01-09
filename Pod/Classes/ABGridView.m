@@ -12,6 +12,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = [UIColor clearColor];
+        self.contentMode = UIViewContentModeRedraw;
     }
     return self;
 }
@@ -42,8 +43,9 @@ CGFloat roundScale(CGFloat value) {
     
     CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height;
-    CGFloat w = roundScale(width*self.x/MAX(self.x,self.y));
-    CGFloat h = roundScale(height*self.y/MAX(self.x,self.y));
+    CGFloat wh = (width/self.x < height/self.y) ? width : height;
+    CGFloat w = roundScale(wh*self.x/MAX(self.x,self.y));
+    CGFloat h = roundScale(wh*self.y/MAX(self.x,self.y));
     CGFloat dx = roundScale(MAX(0,width/2-w/2));
     CGFloat dy = roundScale(MAX(0,height/2-h/2));
     
@@ -60,7 +62,7 @@ CGFloat roundScale(CGFloat value) {
     CGFloat scale = [UIScreen mainScreen].scale;
     CGContextSetLineWidth(context, 1/scale);
     CGContextAddRect(context, CGRectMake(dx, dy+1/scale, w-1/scale, h-1/scale));
-    NSInteger linesCount = 3;
+    NSInteger const linesCount = 3;
     for (NSInteger i = 1; i < linesCount; i++) {
         CGContextMoveToPoint(context, dx, dy+roundScale(h*i/linesCount));
         CGContextAddLineToPoint(context, w+dx-1/scale, dy+roundScale(h*i/linesCount));

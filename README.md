@@ -1,6 +1,6 @@
 # ABCropRotateView
 
-[![CI Status](http://img.shields.io/travis/k06a/ABCropRotateView.svg?style=flat)](https://travis-ci.org/Anton Bukov/ABCropRotateView)
+[![CI Status](http://img.shields.io/travis/k06a/ABCropRotateView.svg?style=flat)](https://travis-ci.org/k06a/ABCropRotateView)
 [![Version](https://img.shields.io/cocoapods/v/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 [![License](https://img.shields.io/cocoapods/l/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
 [![Platform](https://img.shields.io/cocoapods/p/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)

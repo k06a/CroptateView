@@ -44,7 +44,7 @@
     }];
     dispatch_async(dispatch_get_main_queue(), ^{
         [UIView performWithoutAnimation:^{
-            [self updateScrollViewSettings];
+            //[self updateScrollViewSettings];
         }];
     });
 }
@@ -108,6 +108,7 @@
     self.scrollView.layer.rasterizationScale = [UIScreen mainScreen].scale;
     self.scrollView.layer.shouldRasterize = YES;
     self.scrollView.scrollEnabled = YES;
+    self.scrollView.clipsToBounds = NO;
     self.scrollView.bouncesZoom = YES;
     self.scrollView.bounces = YES;
     self.scrollView.showsHorizontalScrollIndicator = NO;
@@ -126,6 +127,23 @@
 
 - (void)dealloc {
     self.scrollView.delegate = nil;
+}
+
+- (void)layoutSubviews {
+    [self letsLayout];
+}
+
+- (void)layoutIfNeeded {
+    [self letsLayout];
+}
+
+- (void)letsLayout {
+    CGAffineTransform tr = self.scrollView.transform;
+    self.scrollView.transform = CGAffineTransformIdentity;
+    self.scrollView.frame = self.bounds; // Access frame when transform is identity
+    self.scrollView.transform = tr;
+    
+    [self updateScrollViewSettings];
 }
 
 #pragma mark - Calculations
@@ -168,8 +186,7 @@
     return t;
 }
 
-- (UIImage *)createResultImage
-{
+- (UIImage *)createResultImage {
     /*
     if (self.cropGridView.x == self.imageView.image.size.width &&
         self.cropGridView.y == self.imageView.image.size.height &&
@@ -212,8 +229,7 @@
     return [self crop:self.imageView.image rect:rect angle:self.angle scale:self.angleScale];
 }
 
-- (UIImage*)crop:(UIImage *)image rect:(CGRect)rect angle:(CGFloat)angle scale:(CGFloat)angleScale
-{
+- (UIImage*)crop:(UIImage *)image rect:(CGRect)rect angle:(CGFloat)angle scale:(CGFloat)angleScale {
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, image.scale);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextTranslateCTM(context, CGRectGetWidth(rect)/2, CGRectGetHeight(rect)/2);
@@ -228,8 +244,7 @@
 
 #pragma mark - Scroll View
 
-- (void)updateScrollViewSettings
-{
+- (void)updateScrollViewSettings {
     if (self.cropGridView.x == 0 || self.cropGridView.y == 0)
         return;
     
@@ -249,7 +264,7 @@
         h = height;
         w = h/yy*xx;
     }
-    CGFloat zoomScale = self.scrollView.bounds.size.width/MAX(w,h);
+    CGFloat zoomScale = MIN(self.scrollView.bounds.size.width/w, self.scrollView.bounds.size.height/h);
     CGFloat dx = MAX(0,self.scrollView.bounds.size.width/2-w/2*zoomScale+self.deltaX*zoomScale);
     CGFloat dy = MAX(0,self.scrollView.bounds.size.height/2-h/2*zoomScale+self.deltaY*zoomScale);
     
@@ -258,18 +273,17 @@
         self.scrollView.contentInset = UIEdgeInsetsMake(dy,dx,dy,dx);
         self.scrollView.minimumZoomScale = MIN(zoomScale,1.0);
         self.scrollView.maximumZoomScale = MAX(zoomScale,1.0);
-        self.scrollView.zoomScale = MIN(self.scrollView.maximumZoomScale,MAX(self.scrollView.minimumZoomScale,self.scrollView.zoomScale));
+        self.scrollView.zoomScale = self.cropGridView.hidden ? self.scrollView.minimumZoomScale : MIN(self.scrollView.maximumZoomScale,MAX(self.scrollView.minimumZoomScale,self.scrollView.zoomScale));
     } completion:^(BOOL finished) {
         self.scrollView.userInteractionEnabled = !self.cropGridView.hidden;
     }];
     
     self.scrollView.transform = CGAffineTransformScale(CGAffineTransformMakeRotation(angle),angleScale,angleScale);
-    self.cropGridView.hidden = (ABS(angle)*180/M_PI < 0.3 && self.cropGridView.x == self.imageView.image.size.width && self.cropGridView.y == self.imageView.image.size.height);
+    self.cropGridView.hidden = (ABS(angle)*180/M_PI < 0.3 && ABS(self.cropGridView.x*1.0/self.cropGridView.y - self.imageView.image.size.width*1.0/self.imageView.image.size.height) < FLT_EPSILON);
     self.scrollView.userInteractionEnabled = !self.cropGridView.hidden;
 }
 
-- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
-{
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return self.imageView;
 }
 
