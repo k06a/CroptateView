@@ -15,8 +15,8 @@ before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
 script:
-#- open -b com.apple.iphonesimulator --args -CurrentDeviceUDID $(xcrun instruments -s | grep -o "iPhone 6 \(.*\) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | awk '{print $1;}')
-#- set -o pipefail 
-#- xcodebuild build -workspace Example/ABCropRotateView.xcworkspace -scheme ABCropRotateView-Example -sdk iphonesimulator -destination "OS=9.2,name=iPhone 6" ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
+- open -b com.apple.iphonesimulator --args -CurrentDeviceUDID $(xcrun instruments -s | grep -o "iPhone 6 \(.*\) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | awk '{print $1;}')
+- set -o pipefail 
+- xcodebuild build -workspace Example/ABCropRotateView.xcworkspace -scheme ABCropRotateView-Example -sdk iphonesimulator -destination "OS=9.2,name=iPhone 6" ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
 #- xcodebuild test -workspace Example/ABCropRotateView.xcworkspace -scheme ABCropRotateView-Example -sdk iphonesimulator -destination "OS=9.2,name=iPhone 6" ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
 - pod lib lint
