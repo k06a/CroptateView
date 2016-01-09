@@ -15,6 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Should be iOS 7.0+
+
 ## Installation
 
 ABCropRotateView is available through [CocoaPods](http://cocoapods.org). To install
