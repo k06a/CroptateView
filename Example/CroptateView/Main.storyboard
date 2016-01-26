@@ -6,7 +6,7 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--ABCropRotateView-->
+        <!--CroptateView-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="ViewController" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <constraint firstItem="Mbb-5s-MGZ" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="xZt-WF-wt2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ABCropRotateView" id="y9v-Ww-Ukd">
+                    <navigationItem key="navigationItem" title="CroptateView" id="y9v-Ww-Ukd">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="CrO-BP-7eU">
                             <connections>
                                 <action selector="cameraTapped:" destination="whP-gf-Uak" id="Iht-7b-DiF"/>
@@ -57,7 +57,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6M-oJ-agA" customClass="ABCropRotateView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6M-oJ-agA" customClass="ABCroptateView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -68,9 +68,9 @@
                                 <rect key="frame" x="142" y="141" width="37" height="37"/>
                             </activityIndicatorView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESIZE EDITOR:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svk-Ck-0pj">
-                                <rect key="frame" x="20" y="503" width="104.5" height="17"/>
+                                <rect key="frame" x="20" y="503" width="105" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-45" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="Py0-RW-SzK">

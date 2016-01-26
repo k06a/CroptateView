@@ -1,14 +1,14 @@
 PODS:
-  - ABCropRotateView (0.1.0)
+  - CroptateView (0.1.1)
 
 DEPENDENCIES:
-  - ABCropRotateView (from `../`)
+  - CroptateView (from `../`)
 
 EXTERNAL SOURCES:
-  ABCropRotateView:
+  CroptateView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ABCropRotateView: 63a8917d449a2b4dc42a5846d40f2e09fecb9d51
+  CroptateView: c5ae0158b5db0ee19c8e178f2061fa99002929c4
 
 COCOAPODS: 0.39.0

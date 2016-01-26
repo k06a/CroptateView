@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ABCropRotateView : UIView
+@interface ABCroptateView : UIView
 
 // Image
 @property (strong, nonatomic) UIImage *image;

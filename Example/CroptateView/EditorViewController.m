@@ -5,12 +5,12 @@
 //  Created by Anton Bukov on 01.08.2016.
 //
 
-#import <ABCropRotateView/ABCropRotateView.h>
+#import <CroptateView/ABCroptateView.h>
 #import "EditorViewController.h"
 
 @interface EditorViewController ()
 
-@property (weak, nonatomic) IBOutlet ABCropRotateView *cropRotateView;
+@property (weak, nonatomic) IBOutlet ABCroptateView *cropRotateView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *cropRotateViewRatio;
 
 @end

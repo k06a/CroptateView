@@ -7,9 +7,9 @@
 
 #import "ABMath.h"
 #import "ABGridView.h"
-#import "ABCropRotateView.h"
+#import "ABCroptateView.h"
 
-@interface ABCropRotateView () <UIScrollViewDelegate>
+@interface ABCroptateView () <UIScrollViewDelegate>
 
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIImageView *imageView;
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation ABCropRotateView
+@implementation ABCroptateView
 
 - (UIImage *)image {
     return self.imageView.image;
