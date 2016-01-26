@@ -1,13 +1,13 @@
-# ABCropRotateView
+# CroptateView
 
-[![CI Status](http://img.shields.io/travis/k06a/ABCropRotateView.svg?style=flat)](https://travis-ci.org/k06a/ABCropRotateView)
-[![Version](https://img.shields.io/cocoapods/v/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
-[![License](https://img.shields.io/cocoapods/l/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
-[![Platform](https://img.shields.io/cocoapods/p/ABCropRotateView.svg?style=flat)](http://cocoapods.org/pods/ABCropRotateView)
+[![CI Status](http://img.shields.io/travis/k06a/CroptateView.svg?style=flat)](https://travis-ci.org/k06a/CroptateView)
+[![Version](https://img.shields.io/cocoapods/v/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
+[![License](https://img.shields.io/cocoapods/l/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
+[![Platform](https://img.shields.io/cocoapods/p/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
 
 You can easily create photo editor to crop, pan and rotate photo. Editor is able to draw aspect ratio lines while cropping and avoid image edges accurately while cropping and rotating image.
 
-<image src="https://raw.githubusercontent.com/k06a/ABCropRotateView/master/screenshot.png" width="50%">
+<image src="https://raw.githubusercontent.com/k06a/CroptateView/master/screenshot.png" width="50%">
 
 ## Usage
 
@@ -19,11 +19,11 @@ Should be iOS 7.0+
 
 ## Installation
 
-ABCropRotateView is available through [CocoaPods](http://cocoapods.org). To install
+CroptateView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ABCropRotateView'
+pod 'CroptateView'
 ```
 
 ## Author
@@ -32,4 +32,4 @@ Anton Bukov, k06aaa@gmail.com
 
 ## License
 
-ABCropRotateView is available under the MIT license. See the LICENSE file for more info.
+CroptateView is available under the MIT license. See the LICENSE file for more info.
