@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048AB7E9E7A75FF5BEDA00C6DF5724D2 /* ABGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87857C5CA3D67E2D76A137ED6DC7A5DD /* ABGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05580740C0F195B86934573C56142F46 /* Pods-CroptateView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2101C0A677A2EF88C16487C658DFE093 /* Pods-CroptateView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ADBA20216EB706C42D91AD774CE5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		1AE046B4B77ED46B0E11286FB606ECE9 /* ABCropRotateView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E740A518B41A163A05F305BDF87F349F /* ABCropRotateView.bundle */; };
+		1CBB37308639A915EED54E7C145C4C7B /* ABMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495EC07636D9CA347AC3D19AD00FDD1 /* ABMath.m */; };
+		1D2D33238EA775AED9F341F57BBC1D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		456E068E469830934F989D43B00671D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		6080F34DC454566A2C3D49768609AF62 /* Pods-CroptateView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF028175B4A4834E46301BFE59C4F45 /* Pods-CroptateView_Tests-dummy.m */; };
+		647344E2DCD82CFE4FF6F83819BFE88D /* Pods-CroptateView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E91F25C4B3D626A4140696C7C73718 /* Pods-CroptateView_Example-dummy.m */; };
+		9393171DCDC43828F2E300623B8A94E3 /* ABGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0539208AA729388F064B1F463EC12ED4 /* ABGridView.m */; };
+		B928C086C831A6BBD01A2A7FB5FE8668 /* ABCroptateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0661ABBD20CDF5DA895D3CD24B9E60D /* ABCroptateView.m */; };
+		E549103ED11BA3FF3776D5D61049FDC4 /* ABCroptateView.h in Headers */ = {isa = PBXBuildFile; fileRef = D18904920294324BD95483141FE7C8B6 /* ABCroptateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB65FC5474684CB2EF4C9DEE27F509DB /* CroptateView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D84533A29E0C2C51586E3101B763CADE /* CroptateView-dummy.m */; };
+		EDAFB65E316CA3A208703A8B564C5B0C /* CroptateView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 532D4CDCFBE9E852D903E9CA5C041C0A /* CroptateView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA03E33FE9C545E5056A49B0C0F82A2 /* Pods-CroptateView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40809CE7812EE160A554C0D0EC076026 /* Pods-CroptateView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00355097C94737FB0E1A878FBF263C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		F17C576B8C0AAE0EEFC6FFEF43C64BEC /* ABMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 030508C62E1EC5AD985F1AA76489863D /* ABMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F37366A6C426D85B03FDFBF30D52B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20D8DF0E67EFD200701FB60D8994D86;
+			remoteInfo = CroptateView;
+		};
+		A51520F1F7488FE09B2CF11DFAB0D74C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925DA8B537C9CAC00700127E15AB3D8F;
+			remoteInfo = "CroptateView-ABCropRotateView";
+		};
+		F5D992E66049975B5223E2D01D380C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20D8DF0E67EFD200701FB60D8994D86;
+			remoteInfo = CroptateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030508C62E1EC5AD985F1AA76489863D /* ABMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABMath.h; sourceTree = "<group>"; };
+		03A39B7733D5968B3CA36EF8FB3CDD35 /* Pods-CroptateView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CroptateView_Tests-resources.sh"; sourceTree = "<group>"; };
+		0539208AA729388F064B1F463EC12ED4 /* ABGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABGridView.m; sourceTree = "<group>"; };
+		1C6169F37C7B9BA5806CB05B5DDC66C7 /* Pods-CroptateView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CroptateView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2101C0A677A2EF88C16487C658DFE093 /* Pods-CroptateView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CroptateView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24AEE940D6EB7DCC49A611A878F674A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC9CD3EB028C3AE31AFDEA02C6A1FAB /* Pods-CroptateView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CroptateView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		40809CE7812EE160A554C0D0EC076026 /* Pods-CroptateView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CroptateView_Example-umbrella.h"; sourceTree = "<group>"; };
+		532D4CDCFBE9E852D903E9CA5C041C0A /* CroptateView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CroptateView-umbrella.h"; sourceTree = "<group>"; };
+		5EC1728A3C8A9F2C7AFF06E113F6E797 /* Pods-CroptateView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CroptateView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6CFCE2A598898A97CEF57E9096C21150 /* Pods-CroptateView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CroptateView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AF028175B4A4834E46301BFE59C4F45 /* Pods-CroptateView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CroptateView_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B38A8CD3BC1F695DA00DBF87CD0533B /* Pods-CroptateView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CroptateView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8495EC07636D9CA347AC3D19AD00FDD1 /* ABMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABMath.m; sourceTree = "<group>"; };
+		864EAB3A46260AB1E67480E2AA4F4B1A /* Pods-CroptateView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CroptateView_Tests.modulemap"; sourceTree = "<group>"; };
+		8702E5D65F0380ACF6E3161BBE89DAAA /* Pods-CroptateView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CroptateView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87857C5CA3D67E2D76A137ED6DC7A5DD /* ABGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABGridView.h; sourceTree = "<group>"; };
+		8AB19F4D7817533431CE41D53A5B05D3 /* Pods-CroptateView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CroptateView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8FB2259EDD8D9D62CEF8AC137BDDA4D1 /* Pods-CroptateView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CroptateView_Example.modulemap"; sourceTree = "<group>"; };
+		91792B5182C6288E9959717B07A9CBDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFF99A8E6EBB11EB4D55C2BA7A458BC /* CroptateView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CroptateView.modulemap; sourceTree = "<group>"; };
+		A3E91F25C4B3D626A4140696C7C73718 /* Pods-CroptateView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CroptateView_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C35C85C2EAC972FBE26301B0A2E9EBD9 /* Pods-CroptateView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CroptateView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C507BEFD808B477229C5F853F935FE99 /* CroptateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CroptateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79E2219F187C119A303A9657F88DF82 /* Pods_CroptateView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CroptateView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18904920294324BD95483141FE7C8B6 /* ABCroptateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABCroptateView.h; sourceTree = "<group>"; };
+		D63A16009ED0E2E5B23712566579EFD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A53D772647327CC59F8DBE5D5B0A41 /* Pods-CroptateView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CroptateView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D84533A29E0C2C51586E3101B763CADE /* CroptateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CroptateView-dummy.m"; sourceTree = "<group>"; };
+		D8FA4C68B03C2681EC31DA4E3D89D805 /* Pods-CroptateView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CroptateView_Example-resources.sh"; sourceTree = "<group>"; };
+		DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CroptateView.xcconfig; sourceTree = "<group>"; };
+		E2BF1C07270E7D1EF6D6B7B6A2469983 /* CroptateView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CroptateView-prefix.pch"; sourceTree = "<group>"; };
+		E392C5A78FC65208B0710A285B737A43 /* Pods_CroptateView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CroptateView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E740A518B41A163A05F305BDF87F349F /* ABCropRotateView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCropRotateView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0661ABBD20CDF5DA895D3CD24B9E60D /* ABCroptateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABCroptateView.m; sourceTree = "<group>"; };
+		F157847553E49284FE1C674AEC55ECB6 /* Pods-CroptateView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CroptateView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7FF541348EC93D28FBC16A664B6E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EF77D8A837B6758C16FF00409619A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2D33238EA775AED9F341F57BBC1D81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D79E64D30DD2623CFD65FCE571BD281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ADBA20216EB706C42D91AD774CE5D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6354B0C3B3C16CC2AE1B85A1D53EFE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00355097C94737FB0E1A878FBF263C3 /* Foundation.framework in Frameworks */,
+				456E068E469830934F989D43B00671D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03177C31B4FF85E2A73B76DAD42B237E /* Pods-CroptateView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				91792B5182C6288E9959717B07A9CBDB /* Info.plist */,
+				8FB2259EDD8D9D62CEF8AC137BDDA4D1 /* Pods-CroptateView_Example.modulemap */,
+				7B38A8CD3BC1F695DA00DBF87CD0533B /* Pods-CroptateView_Example-acknowledgements.markdown */,
+				6CFCE2A598898A97CEF57E9096C21150 /* Pods-CroptateView_Example-acknowledgements.plist */,
+				A3E91F25C4B3D626A4140696C7C73718 /* Pods-CroptateView_Example-dummy.m */,
+				D6A53D772647327CC59F8DBE5D5B0A41 /* Pods-CroptateView_Example-frameworks.sh */,
+				D8FA4C68B03C2681EC31DA4E3D89D805 /* Pods-CroptateView_Example-resources.sh */,
+				40809CE7812EE160A554C0D0EC076026 /* Pods-CroptateView_Example-umbrella.h */,
+				F157847553E49284FE1C674AEC55ECB6 /* Pods-CroptateView_Example.debug.xcconfig */,
+				8AB19F4D7817533431CE41D53A5B05D3 /* Pods-CroptateView_Example.release.xcconfig */,
+			);
+			name = "Pods-CroptateView_Example";
+			path = "Target Support Files/Pods-CroptateView_Example";
+			sourceTree = "<group>";
+		};
+		134ECEDC6F3BD7AA11CD3A027E57A90A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B6DB88F411D473DFDD8D41036B13A5 /* CroptateView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		240FD9DB287E75280FDE3C8F96AB33BD /* Pods-CroptateView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D63A16009ED0E2E5B23712566579EFD6 /* Info.plist */,
+				864EAB3A46260AB1E67480E2AA4F4B1A /* Pods-CroptateView_Tests.modulemap */,
+				C35C85C2EAC972FBE26301B0A2E9EBD9 /* Pods-CroptateView_Tests-acknowledgements.markdown */,
+				1C6169F37C7B9BA5806CB05B5DDC66C7 /* Pods-CroptateView_Tests-acknowledgements.plist */,
+				7AF028175B4A4834E46301BFE59C4F45 /* Pods-CroptateView_Tests-dummy.m */,
+				2FC9CD3EB028C3AE31AFDEA02C6A1FAB /* Pods-CroptateView_Tests-frameworks.sh */,
+				03A39B7733D5968B3CA36EF8FB3CDD35 /* Pods-CroptateView_Tests-resources.sh */,
+				2101C0A677A2EF88C16487C658DFE093 /* Pods-CroptateView_Tests-umbrella.h */,
+				8702E5D65F0380ACF6E3161BBE89DAAA /* Pods-CroptateView_Tests.debug.xcconfig */,
+				5EC1728A3C8A9F2C7AFF06E113F6E797 /* Pods-CroptateView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CroptateView_Tests";
+			path = "Target Support Files/Pods-CroptateView_Tests";
+			sourceTree = "<group>";
+		};
+		2F2B0488B6773372E65DB802B34AC059 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD931FC67C5272E912C05390C80019 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				134ECEDC6F3BD7AA11CD3A027E57A90A /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8FD154F217B78FB64C10672C03292D15 /* Products */,
+				D795EEB9DC912236A0D464663DA361C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85B6DB88F411D473DFDD8D41036B13A5 /* CroptateView */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B0488B6773372E65DB802B34AC059 /* Pod */,
+				E3179A65D782A63CF41A07E6A1AC5ADB /* Support Files */,
+			);
+			name = CroptateView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8BCD931FC67C5272E912C05390C80019 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D18904920294324BD95483141FE7C8B6 /* ABCroptateView.h */,
+				F0661ABBD20CDF5DA895D3CD24B9E60D /* ABCroptateView.m */,
+				87857C5CA3D67E2D76A137ED6DC7A5DD /* ABGridView.h */,
+				0539208AA729388F064B1F463EC12ED4 /* ABGridView.m */,
+				030508C62E1EC5AD985F1AA76489863D /* ABMath.h */,
+				8495EC07636D9CA347AC3D19AD00FDD1 /* ABMath.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FD154F217B78FB64C10672C03292D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E740A518B41A163A05F305BDF87F349F /* ABCropRotateView.bundle */,
+				C507BEFD808B477229C5F853F935FE99 /* CroptateView.framework */,
+				C79E2219F187C119A303A9657F88DF82 /* Pods_CroptateView_Example.framework */,
+				E392C5A78FC65208B0710A285B737A43 /* Pods_CroptateView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D795EEB9DC912236A0D464663DA361C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03177C31B4FF85E2A73B76DAD42B237E /* Pods-CroptateView_Example */,
+				240FD9DB287E75280FDE3C8F96AB33BD /* Pods-CroptateView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3179A65D782A63CF41A07E6A1AC5ADB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EFF99A8E6EBB11EB4D55C2BA7A458BC /* CroptateView.modulemap */,
+				DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */,
+				D84533A29E0C2C51586E3101B763CADE /* CroptateView-dummy.m */,
+				E2BF1C07270E7D1EF6D6B7B6A2469983 /* CroptateView-prefix.pch */,
+				532D4CDCFBE9E852D903E9CA5C041C0A /* CroptateView-umbrella.h */,
+				24AEE940D6EB7DCC49A611A878F674A1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CroptateView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44273CBBD89F8B07EB61F0231EDC6FF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA03E33FE9C545E5056A49B0C0F82A2 /* Pods-CroptateView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE959D1BA8663E2ED51234393EDFA26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05580740C0F195B86934573C56142F46 /* Pods-CroptateView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A4579E3862045598034A3FCB166CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E549103ED11BA3FF3776D5D61049FDC4 /* ABCroptateView.h in Headers */,
+				048AB7E9E7A75FF5BEDA00C6DF5724D2 /* ABGridView.h in Headers */,
+				F17C576B8C0AAE0EEFC6FFEF43C64BEC /* ABMath.h in Headers */,
+				EDAFB65E316CA3A208703A8B564C5B0C /* CroptateView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3882303D055BC3DDCD6B4F5FD6306BF2 /* Pods-CroptateView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686C8D8DAC75E6440A8C6EFD0C954BB3 /* Build configuration list for PBXNativeTarget "Pods-CroptateView_Example" */;
+			buildPhases = (
+				64BF825E55E1D6EEBB7A818B10E1D399 /* Sources */,
+				51EF77D8A837B6758C16FF00409619A8 /* Frameworks */,
+				44273CBBD89F8B07EB61F0231EDC6FF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5163100C9F68D7EA50DB7F36E41594CF /* PBXTargetDependency */,
+			);
+			name = "Pods-CroptateView_Example";
+			productName = "Pods-CroptateView_Example";
+			productReference = C79E2219F187C119A303A9657F88DF82 /* Pods_CroptateView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		925DA8B537C9CAC00700127E15AB3D8F /* CroptateView-ABCropRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9D4624AFBC478B6E3E4F3BDED87902 /* Build configuration list for PBXNativeTarget "CroptateView-ABCropRotateView" */;
+			buildPhases = (
+				C00BE6EA0C32C97D00F2C729CFAF7432 /* Sources */,
+				1D7FF541348EC93D28FBC16A664B6E7E /* Frameworks */,
+				A3DD6B42D31C0059BBE9492C1C5A0895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CroptateView-ABCropRotateView";
+			productName = "CroptateView-ABCropRotateView";
+			productReference = E740A518B41A163A05F305BDF87F349F /* ABCropRotateView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C20D8DF0E67EFD200701FB60D8994D86 /* CroptateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE0EDD12DB81B17178FE2CEF666BFC5 /* Build configuration list for PBXNativeTarget "CroptateView" */;
+			buildPhases = (
+				862BD440DD1A61C4132348AB3CF079ED /* Sources */,
+				6354B0C3B3C16CC2AE1B85A1D53EFE97 /* Frameworks */,
+				3EF08AA12AAD405C35DA5101A1E4D067 /* Resources */,
+				F59A4579E3862045598034A3FCB166CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DDFA133AAB216DC4FD91AF07B7BA10D /* PBXTargetDependency */,
+			);
+			name = CroptateView;
+			productName = CroptateView;
+			productReference = C507BEFD808B477229C5F853F935FE99 /* CroptateView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD21837B4B61259E763C8D534B5D0FA5 /* Pods-CroptateView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146F23D7948DDBB7D8CE5307D7030EA2 /* Build configuration list for PBXNativeTarget "Pods-CroptateView_Tests" */;
+			buildPhases = (
+				34C07339441B64AB15B6720704ABA6CF /* Sources */,
+				5D79E64D30DD2623CFD65FCE571BD281 /* Frameworks */,
+				9EE959D1BA8663E2ED51234393EDFA26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B912E071B9BE2369BFD436A54525F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CroptateView_Tests";
+			productName = "Pods-CroptateView_Tests";
+			productReference = E392C5A78FC65208B0710A285B737A43 /* Pods_CroptateView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8FD154F217B78FB64C10672C03292D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20D8DF0E67EFD200701FB60D8994D86 /* CroptateView */,
+				925DA8B537C9CAC00700127E15AB3D8F /* CroptateView-ABCropRotateView */,
+				3882303D055BC3DDCD6B4F5FD6306BF2 /* Pods-CroptateView_Example */,
+				CD21837B4B61259E763C8D534B5D0FA5 /* Pods-CroptateView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF08AA12AAD405C35DA5101A1E4D067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE046B4B77ED46B0E11286FB606ECE9 /* ABCropRotateView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DD6B42D31C0059BBE9492C1C5A0895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C07339441B64AB15B6720704ABA6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6080F34DC454566A2C3D49768609AF62 /* Pods-CroptateView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BF825E55E1D6EEBB7A818B10E1D399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647344E2DCD82CFE4FF6F83819BFE88D /* Pods-CroptateView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862BD440DD1A61C4132348AB3CF079ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B928C086C831A6BBD01A2A7FB5FE8668 /* ABCroptateView.m in Sources */,
+				9393171DCDC43828F2E300623B8A94E3 /* ABGridView.m in Sources */,
+				1CBB37308639A915EED54E7C145C4C7B /* ABMath.m in Sources */,
+				EB65FC5474684CB2EF4C9DEE27F509DB /* CroptateView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BE6EA0C32C97D00F2C729CFAF7432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5163100C9F68D7EA50DB7F36E41594CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CroptateView;
+			target = C20D8DF0E67EFD200701FB60D8994D86 /* CroptateView */;
+			targetProxy = 86F37366A6C426D85B03FDFBF30D52B6 /* PBXContainerItemProxy */;
+		};
+		5DDFA133AAB216DC4FD91AF07B7BA10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CroptateView-ABCropRotateView";
+			target = 925DA8B537C9CAC00700127E15AB3D8F /* CroptateView-ABCropRotateView */;
+			targetProxy = A51520F1F7488FE09B2CF11DFAB0D74C /* PBXContainerItemProxy */;
+		};
+		99B912E071B9BE2369BFD436A54525F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CroptateView;
+			target = C20D8DF0E67EFD200701FB60D8994D86 /* CroptateView */;
+			targetProxy = F5D992E66049975B5223E2D01D380C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1865CDCA69870685C666969D3D39D935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CroptateView/CroptateView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CroptateView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CroptateView/CroptateView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CroptateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1920552EEFE94EA7AC96818AFDED8B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ABCropRotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3E6AC043843D133ED4C324AC04ACEEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F157847553E49284FE1C674AEC55ECB6 /* Pods-CroptateView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CroptateView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CroptateView_Example/Pods-CroptateView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CroptateView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E111F9085C1B2A0F096564F259AE133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC1728A3C8A9F2C7AFF06E113F6E797 /* Pods-CroptateView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CroptateView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CroptateView_Tests/Pods-CroptateView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CroptateView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4440048A944911F02AA149585C09E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ABCropRotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B35595A09AC998FDA9D1A3F351D76A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8702E5D65F0380ACF6E3161BBE89DAAA /* Pods-CroptateView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CroptateView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CroptateView_Tests/Pods-CroptateView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CroptateView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8E2EFDA76AB62AAFC8BB7B22D4D723A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB19F4D7817533431CE41D53A5B05D3 /* Pods-CroptateView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CroptateView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CroptateView_Example/Pods-CroptateView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CroptateView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6482BA4D00AB119793CC5E97B266EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CAE355E374383F6E30AEA170C31F1 /* CroptateView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CroptateView/CroptateView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CroptateView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CroptateView/CroptateView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CroptateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146F23D7948DDBB7D8CE5307D7030EA2 /* Build configuration list for PBXNativeTarget "Pods-CroptateView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35595A09AC998FDA9D1A3F351D76A2E /* Debug */,
+				7E111F9085C1B2A0F096564F259AE133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9D4624AFBC478B6E3E4F3BDED87902 /* Build configuration list for PBXNativeTarget "CroptateView-ABCropRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4440048A944911F02AA149585C09E1 /* Debug */,
+				1920552EEFE94EA7AC96818AFDED8B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686C8D8DAC75E6440A8C6EFD0C954BB3 /* Build configuration list for PBXNativeTarget "Pods-CroptateView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6AC043843D133ED4C324AC04ACEEAB /* Debug */,
+				B8E2EFDA76AB62AAFC8BB7B22D4D723A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE0EDD12DB81B17178FE2CEF666BFC5 /* Build configuration list for PBXNativeTarget "CroptateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1865CDCA69870685C666969D3D39D935 /* Debug */,
+				C6482BA4D00AB119793CC5E97B266EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

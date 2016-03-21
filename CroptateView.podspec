@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CroptateView"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Simple view allowing to crop and rotate photos"
 
   s.description      = <<-DESC

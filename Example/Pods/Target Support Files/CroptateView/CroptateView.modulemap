@@ -1,0 +1,6 @@
+framework module CroptateView {
+  umbrella header "CroptateView-umbrella.h"
+
+  export *
+  module * { export * }
+}

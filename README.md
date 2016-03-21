@@ -2,6 +2,7 @@
 
 [![CI Status](http://img.shields.io/travis/k06a/CroptateView.svg?style=flat)](https://travis-ci.org/k06a/CroptateView)
 [![Version](https://img.shields.io/cocoapods/v/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
 [![Platform](https://img.shields.io/cocoapods/p/CroptateView.svg?style=flat)](http://cocoapods.org/pods/CroptateView)
 
@@ -24,6 +25,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CroptateView'
+```
+
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), simply add CroptateView to your `Cartfile`:
+
+```
+github "k06a/CroptateView"
 ```
 
 ## Author

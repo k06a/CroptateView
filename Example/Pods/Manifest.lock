@@ -1,0 +1,14 @@
+PODS:
+  - CroptateView (0.1.1)
+
+DEPENDENCIES:
+  - CroptateView (from `../`)
+
+EXTERNAL SOURCES:
+  CroptateView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CroptateView: c5ae0158b5db0ee19c8e178f2061fa99002929c4
+
+COCOAPODS: 0.39.0
