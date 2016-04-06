@@ -130,14 +130,8 @@
 }
 
 - (void)layoutSubviews {
-    [self letsLayout];
-}
+    [super layoutSubviews];
 
-- (void)layoutIfNeeded {
-    [self letsLayout];
-}
-
-- (void)letsLayout {
     CGAffineTransform tr = self.scrollView.transform;
     self.scrollView.transform = CGAffineTransformIdentity;
     self.scrollView.frame = self.bounds; // Access frame when transform is identity
